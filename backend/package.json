@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "prestart": "mkdir -p /data && touch /data/data.db && chmod 777 /data/data.db",
+    "prestart": "mkdir -p ./data && touch ./data/data.db && chmod 777 ./data/data.db",
     "start": "directus start"
   },
   "keywords": [],
